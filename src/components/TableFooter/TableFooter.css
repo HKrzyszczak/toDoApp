@@ -1,0 +1,30 @@
+.TableFooter {   
+  border: 1px solid #e6e3e4;  
+}
+
+.TableFooterCell {
+  padding: 24px;
+  text-align: right;
+}
+
+.TableSelect select{
+  border: none;
+  width: 100px;
+  padding-left: 16px;
+}
+
+
+.FooterButon {
+  border: none;
+  background-color: white;
+  padding:  16px;
+}
+
+.FooterButon:hover {
+  background-color: #e6e3e4;
+}
+
+.FooterButon:active {
+  border: none;
+  background-color: #b3b0b1;
+}

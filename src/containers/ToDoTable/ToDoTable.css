@@ -1,0 +1,18 @@
+.ToDoTable {   
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: white;
+  box-shadow: 0 0 0 10px #eeeced;
+}
+
+.TableContainer {
+  box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+  .ToDoTable {
+    width: 80%;
+  }
+}

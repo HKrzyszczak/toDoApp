@@ -1,0 +1,11 @@
+.TableRow {   
+  border: 1px solid #e6e3e4;
+}
+
+.TableRow:hover {
+  background-color: #eeeced;
+}
+
+.Cell {
+  padding: 24px;
+}

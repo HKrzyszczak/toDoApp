@@ -1,14 +1,20 @@
 import React from 'react';
+import classes from './TableHeader.css';
 
-const tableHeader = () => (
+const tableHeader = (props) => (
   <thead>
-  <tr>
-    <td>Name</td>
-    <td>Priority</td>
-    <td>Done</td>
-  </tr>
+    <tr className={classes.HeaderRow}>
+      <td 
+        onClick={() => props.sorting('taskName')} 
+        className={classes.HeaderCell}>Task name</td>
+      <td
+        onClick={() => props.sorting('priority')}
+        className={classes.HeaderCell}>Priority</td>
+      <td
+      onClick={() => props.sorting('done')}
+      className={classes.HeaderCell}>Done</td>
+    </tr>
   </thead>
-  
 );
 
 export default tableHeader;
