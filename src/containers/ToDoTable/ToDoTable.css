@@ -16,3 +16,9 @@
     width: 80%;
   }
 }
+
+@media (min-width: 1000px) {
+  .ToDoTable {
+    width: 800px;
+  }
+}

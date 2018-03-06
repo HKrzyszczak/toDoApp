@@ -1,4 +1,5 @@
 .Button {
+  height: 40px;
   background-color: transparent;
   border: none;
   color: white;
@@ -8,13 +9,46 @@
   padding: 10px;
   margin: 10px;
   font-weight: bold;
+  text-align: center;
 }
 
 .Button:first-of-type {
-  margin-left: 0;
-  padding-left: 0;
+  margin-left: 24px;
+  border-radius: 20px; 
+
 }
 
 .Action {
-  color: rgb(51, 53, 56);
+  color: #cbd1da;
+  border-radius: 21px;
+  background-color: #1b4725;
+  background:    -webkit-linear-gradient(#4da862, #1b4725);
+  background:    linear-gradient(#4da862, #1b4725);
+}
+
+.Action:hover {
+  color: #142b4e;
+  background-color: #1b4725;
+  background:    -webkit-linear-gradient(#4da862, #1b4725);
+  background:    linear-gradient(#4da862, #1b4725); 
+}
+
+.Action:active {
+  color: #142b4e;
+  background-color: #4da862;
+  background:    -webkit-linear-gradient(#1b4725, #4da862);
+  background:    linear-gradient(#1b4725, #4da862); 
+}
+
+.Success {
+  color: #5C9210;
+}
+
+.Success:disabled {
+  cursor: not-allowed;
+  color: #b8c4a9;
+}
+
+.Danger {
+  color: #944317;
 }

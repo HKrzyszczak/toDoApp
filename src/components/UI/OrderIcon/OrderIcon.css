@@ -1,0 +1,9 @@
+.OrderIcon{
+  padding: 0;
+  height: 24px;
+  box-sizing: border-box;
+}
+
+.OrderIcon img {
+  height: 100%;
+}

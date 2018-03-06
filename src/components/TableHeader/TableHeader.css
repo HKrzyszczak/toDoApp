@@ -1,15 +1,18 @@
 .HeaderCell {
     padding: 24px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
 }
 
-.HeaderCell:hover {
+.HeaderTd:hover {
   background-color:#58533d;
 }
 
 .HeaderRow {
-  padding: 16px;
+  padding: 0;
   border: 1px solid #e6e3e4;
-  background-color:#494430;
-  width: 200px;  
+  background-color:#494430;  
   color: white;
 }
