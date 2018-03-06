@@ -2,6 +2,9 @@
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Demo build with github pages:
+[toDoApp](https://HKrzyszczak.github.io/toDoApp)
+
 ## After clone or download 
 
 In the project directory, to download all modules and dependencies, write to the console:
@@ -17,3 +20,4 @@ In the event of accidental closing, you can enter the address:
 [http://localhost:3000](http://localhost:3000) in browser. 
 
 The page will reload if you make edits and save changes.
+
